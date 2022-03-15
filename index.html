@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fórmula Bhaskara</title>
+        <link rel = "stylesheet" href = "estilo.css">
+        <!-- copiei esse codigo pq criei o favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+    </head>
+    <body>
+        <main>
+            <h1>Calculando Bhaskara</h1>
+            <p> x = – b ± √Δ<br>
+            2·a </p>
+            <section>
+                <label>A:</label>
+                <input type = "number" id = "a" placeholder="a">
+                <label>B:</label>
+                <input type = "number" id = "b" placeholder="b">
+                <label>C:</label>
+                <input type = "number" id = "c" placeholder="c">
+                <input type = "button" value = "Calcular" id = "botao" onclick = "calcular()">
+                <p id = "msg" onclick = "calcular()"></p>
+                <hr>
+            </section>
+        </main>
+        <footer></footer>
+        <script src = "script.js"></script>
+    </body>
+</html>
